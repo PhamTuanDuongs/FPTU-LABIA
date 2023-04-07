@@ -4,17 +4,13 @@
  */
 package com.example.demo.repository;
 
-import com.example.demo.AuthorizationModel.Account;
+import com.example.demo.model.Group;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author admin1
  */
-@Repository
-public interface AccountRepository extends JpaRepository<Account, String> {
+public interface GroupRepository extends JpaRepository<Group, String> {
 
 }
